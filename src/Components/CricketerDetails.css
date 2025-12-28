@@ -1,0 +1,63 @@
+.details-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  animation: slide-in 0.5s ease;
+}
+
+.details-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.details-item {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+.details-label {
+  font-weight: bold;
+  color: #424242;
+  margin-right: 5px;
+}
+
+.details-value {
+  color: #0d47a1;
+}
+
+.back-button {
+  display: block;
+  margin: 30px auto 0;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #2196f3, #64b5f6);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: linear-gradient(to right, #1e88e5, #42a5f5);
+  transform: scale(1.05);
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
